@@ -1,0 +1,38 @@
+<!-- File: /flashcards.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flashcards - Learn Mode</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="page-title">Flashcards - Learn Mode</h1>
+    
+    <!-- Controls Above Flashcards -->
+    <div class="controls" id="controls">
+      <button id="prev" title="Previous (←)" aria-label="Previous">&#8592;</button>
+      <button id="flip" title="Flip (↑/↓)" aria-label="Flip">&#8593;&#8595;</button>
+      <button id="next" title="Next (→)" aria-label="Next">&#8594;</button>
+    </div>
+    
+    <!-- Flashcard Container -->
+    <div class="flashcard-container" id="flashcard-container">
+      <div class="flashcard" id="flashcard">
+        <div class="front" id="front">Question</div>
+        <div class="back" id="back">Answer</div>
+      </div>
+    </div>
+    
+    <!-- Navigation to Test Mode -->
+    <div class="navigation">
+      <a href="test.html" class="mode-button">Take a Test</a>
+    </div>
+  </div>
+  
+  <!-- Load JavaScript Modules -->
+  <script type="module" src="data.js"></script>
+  <script type="module" src="flashcards.js"></script>
+</body>
+</html>

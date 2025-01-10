@@ -1,0 +1,40 @@
+<!-- File: /test.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flashcards - Test Mode</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="page-title">Flashcards - Test Mode</h1>
+    
+    <!-- Test Mode Container -->
+    <div class="test-container" id="test-container">
+      <div class="test-layout">
+        <div class="test-column" id="test-questions">
+          <h2>Questions</h2>
+          <p>Select an answer to match with the corresponding question.</p>
+          <!-- Question Cards will be generated dynamically here -->
+        </div>
+        <div class="test-column large" id="test-answers">
+          <h2>Answers</h2>
+          <p>Select a question to match with the selected answer.</p>
+          <!-- Answer Cards will be generated dynamically here -->
+        </div>
+      </div>
+      <button id="reset-test" class="reset-button">Reset Test</button>
+    </div>
+    
+    <!-- Navigation to Learn Mode -->
+    <div class="navigation">
+      <a href="flashcards.html" class="mode-button">Learn Flashcards</a>
+    </div>
+  </div>
+  
+  <!-- Load JavaScript Modules -->
+  <script type="module" src="data.js"></script>
+  <script type="module" src="test.js"></script>
+</body>
+</html>
