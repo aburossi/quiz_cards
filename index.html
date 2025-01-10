@@ -9,7 +9,8 @@
 <body>
   <div class="container">
     <h1 id="page-title">Flashcards</h1>
-    
+
+    <!-- Subject Selector -->
     <div class="selector" id="subject-selector">
       <label for="subject">Choose a subject:</label>
       <select id="subject">
@@ -18,20 +19,20 @@
       </select>
       <button id="start">Start</button>
     </div>
-    
+
     <!-- Mode Selection Section -->
     <div class="mode-selection" id="mode-selection" style="display: none;">
       <button id="learn-mode" class="mode-button">Learn</button>
       <button id="test-mode" class="mode-button">Take a Test</button>
     </div>
-    
+
     <!-- Controls Above Flashcards -->
     <div class="controls" id="controls" style="display: none;">
       <button id="prev" title="Previous (←)" aria-label="Previous">&#8592;</button>
       <button id="flip" title="Flip (↑/↓)" aria-label="Flip">&#8593;&#8595;</button>
       <button id="next" title="Next (→)" aria-label="Next">&#8594;</button>
     </div>
-    
+
     <!-- Flashcard Container for Learn Mode -->
     <div class="flashcard-container" id="flashcard-container" style="display: none;">
       <div class="flashcard" id="flashcard">
@@ -39,25 +40,31 @@
         <div class="back" id="back">Answer</div>
       </div>
     </div>
-    
+
     <!-- Test Mode Container -->
     <div class="test-container" id="test-container" style="display: none;">
-        <div class="test-layout">
+      <div class="test-layout">
         <div class="test-column" id="test-questions">
-            <h2>Questions</h2>
-            <!-- Question Cards will be generated dynamically here -->
+          <h2>Questions</h2>
+          <!-- Question Cards will be generated dynamically here -->
         </div>
         <div class="test-column large" id="test-answers">
-            <h2>Answers</h2>
-            <!-- Answer Cards will be generated dynamically here -->
+          <h2>Answers</h2>
+          <!-- Answer Cards will be generated dynamically here -->
         </div>
-        </div>
-        <button id="reset-test" class="reset-button">Reset Test</button>
+      </div>
+      <button id="reset-test" class="reset-button">Reset Test</button>
     </div>
-  
+
+    <!-- Navigation Links -->
+    <div class="navigation" id="navigation" style="display: none;">
+      <a href="flashcards.html" class="mode-button">Learn Flashcards</a>
+      <a href="test.html" class="mode-button">Take a Test</a>
+    </div>
   </div>
-  
+
   <!-- Load JavaScript Modules -->
+  <!-- Removed the redundant data.js script -->
   <script type="module" src="ui.js"></script>
 </body>
 </html>
