@@ -23,7 +23,7 @@
 }
 
 /* =========================================
-   Selector Styles
+   Selector Styles (flashcards.html)
    ========================================= */
 .selector {
     margin-bottom: 20px;
@@ -59,7 +59,7 @@
 }
 
 /* =========================================
-   Mode Selection Styles
+   Mode Selection Styles (flashcards.html and test.html)
    ========================================= */
 .mode-selection {
     margin-bottom: 20px;
@@ -78,6 +78,7 @@
     cursor: pointer;
     font-size: 1.1em;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
 }
 
 .mode-button:hover {
@@ -90,7 +91,22 @@
 }
 
 /* =========================================
-   Controls Styles
+   Navigation Links Styles
+   ========================================= */
+.navigation {
+    margin-top: 30px;
+}
+
+.navigation .mode-button {
+    background-color: #17a2b8;
+}
+
+.navigation .mode-button:hover {
+    background-color: #117a8b;
+}
+
+/* =========================================
+   Controls Styles (flashcards.html)
    ========================================= */
 .controls {
     margin-bottom: 20px; /* Space below controls */
@@ -129,7 +145,7 @@
 }
 
 /* =========================================
-   Flashcard Styles (Learn Mode)
+   Flashcard Styles (flashcards.html)
    ========================================= */
 .flashcard-container {
     perspective: 1000px;
@@ -222,7 +238,7 @@
 }
 
 /* =========================================
-   Test Mode Styles
+   Test Mode Styles (test.html)
    ========================================= */
 .test-container {
     margin-top: 20px;
@@ -440,7 +456,7 @@
 }
 
 /* =========================================
-   Reset Button Styles
+   Reset Button Styles (test.html)
    ========================================= */
 .reset-button {
     margin-top: 20px;
