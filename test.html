@@ -10,8 +10,18 @@
   <div class="container">
     <h1 id="page-title">Flashcards - Test Mode</h1>
     
+    <!-- Subject Selector -->
+    <div class="selector" id="subject-selector">
+      <label for="subject">Choose a subject:</label>
+      <select id="subject">
+        <option value="">--Select--</option>
+        <!-- Options will be populated dynamically -->
+      </select>
+      <button id="start-test">Start Test</button>
+    </div>
+    
     <!-- Test Mode Container -->
-    <div class="test-container" id="test-container">
+    <div class="test-container" id="test-container" style="display: none;">
       <div class="test-layout">
         <div class="test-column" id="test-questions">
           <h2>Questions</h2>
@@ -28,7 +38,7 @@
     </div>
     
     <!-- Navigation to Learn Mode -->
-    <div class="navigation">
+    <div class="navigation" id="test-navigation" style="display: none;">
       <a href="flashcards.html" class="mode-button">Learn Flashcards</a>
     </div>
   </div>

@@ -1,13 +1,15 @@
 // File: /flashcards.js
 
-import { fetchFlashcards, getUrlParams, capitalizeFirstLetter } from './data.js';
+import { fetchFlashcards, shuffle, getUrlParams, capitalizeFirstLetter } from './data.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-    initializeFlashcards();
-    setupEventListeners();
+    loadSubjectsAndPopulate('flashcards');
+    setupFlashcardEventListeners();
 });
 
 // === DOM Elements ===
+const subjectSelect = document.getElementById('subject');
+const startFlashcardsButton = document.getElementById('start-flashcards');
 const flashcardContainer = document.getElementById('flashcard-container');
 const flashcard = document.getElementById('flashcard');
 const front = document.getElementById('front');
@@ -15,44 +17,70 @@ const back = document.getElementById('back');
 const prevButton = document.getElementById('prev');
 const flipButton = document.getElementById('flip');
 const nextButton = document.getElementById('next');
-const pageTitle = document.getElementById('page-title');
-const controls = document.getElementById('controls');
+const flashcardsNavigation = document.getElementById('flashcards-navigation');
 
 let flashcards = [];
 let currentIndex = 0;
 let isAnimating = false; // Flag to prevent overlapping animations
-let currentSubject = ""; // Tracks the active subject
 
 /**
- * Initialize Flashcards based on URL parameters or default selection
+ * Fetch and populate subjects in the dropdown
  */
-async function initializeFlashcards() {
-    const params = getUrlParams();
-    const assignmentId = params['assignmentId'];
-
-    if (assignmentId) {
-        currentSubject = assignmentId; // Set the current subject
-        flashcards = await fetchFlashcards(currentSubject);
-        if (flashcards.length === 0) return;
-
-        // Update the page title
-        pageTitle.textContent = `Flashcards - ${capitalizeFirstLetter(currentSubject.replace(/_/g, ' '))}`;
-        // Hide controls initially if needed
-        controls.style.display = 'flex';
-        // Show the first flashcard
-        showFlashcard();
-    } else {
-        alert('No subject specified. Please navigate to flashcards.html with a valid subject.');
+async function loadSubjectsAndPopulate(mode) {
+    const subjects = await fetchSubjects();
+    populateDropdown(subjects);
+    
+    if (mode === 'flashcards') {
+        startFlashcardsButton.addEventListener('click', handleStartFlashcards);
     }
 }
 
 /**
- * Setup all event listeners for flashcards
+ * Populate the subject dropdown with fetched subjects
+ * @param {Array} subjects - Array of subject names
  */
-function setupEventListeners() {
+function populateDropdown(subjects) {
+    subjects.forEach(subject => {
+        const option = document.createElement('option');
+        option.value = subject;
+        option.textContent = capitalizeFirstLetter(subject.replace(/_/g, ' '));
+        subjectSelect.appendChild(option);
+    });
+}
+
+/**
+ * Handle Start Flashcards Button Click
+ */
+async function handleStartFlashcards() {
+    const subject = subjectSelect.value;
+    if (!subject) {
+        alert('Please select a subject.');
+        return;
+    }
+
+    // Fetch flashcards for the selected subject
+    flashcards = await fetchFlashcards(subject);
+    if (flashcards.length === 0) return;
+
+    // Hide Subject Selector and Show Flashcards
+    document.getElementById('subject-selector').style.display = 'none';
+    flashcardsNavigation.style.display = 'block';
+    flashcardContainer.style.display = 'block';
+    document.getElementById('controls').style.display = 'flex';
+
+    // Initialize Flashcards
+    currentIndex = 0;
+    showFlashcard();
+}
+
+/**
+ * Setup Event Listeners for Flashcards
+ */
+function setupFlashcardEventListeners() {
     prevButton.addEventListener('click', handlePrev);
     nextButton.addEventListener('click', handleNext);
     flipButton.addEventListener('click', handleFlip);
+    flashcard.addEventListener('click', handleFlip);
 
     // Keyboard Navigation
     document.addEventListener('keydown', (event) => {
@@ -72,9 +100,6 @@ function setupEventListeners() {
                 break;
         }
     });
-
-    // Handle flip on flashcard click
-    flashcard.addEventListener('click', handleFlip);
 }
 
 /**

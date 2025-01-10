@@ -10,15 +10,25 @@
   <div class="container">
     <h1 id="page-title">Flashcards - Learn Mode</h1>
     
+    <!-- Subject Selector -->
+    <div class="selector" id="subject-selector">
+      <label for="subject">Choose a subject:</label>
+      <select id="subject">
+        <option value="">--Select--</option>
+        <!-- Options will be populated dynamically -->
+      </select>
+      <button id="start-flashcards">Start Learning</button>
+    </div>
+    
     <!-- Controls Above Flashcards -->
-    <div class="controls" id="controls">
+    <div class="controls" id="controls" style="display: none;">
       <button id="prev" title="Previous (←)" aria-label="Previous">&#8592;</button>
       <button id="flip" title="Flip (↑/↓)" aria-label="Flip">&#8593;&#8595;</button>
       <button id="next" title="Next (→)" aria-label="Next">&#8594;</button>
     </div>
     
-    <!-- Flashcard Container -->
-    <div class="flashcard-container" id="flashcard-container">
+    <!-- Flashcard Container for Learn Mode -->
+    <div class="flashcard-container" id="flashcard-container" style="display: none;">
       <div class="flashcard" id="flashcard">
         <div class="front" id="front">Question</div>
         <div class="back" id="back">Answer</div>
@@ -26,7 +36,7 @@
     </div>
     
     <!-- Navigation to Test Mode -->
-    <div class="navigation">
+    <div class="navigation" id="flashcards-navigation" style="display: none;">
       <a href="test.html" class="mode-button">Take a Test</a>
     </div>
   </div>
