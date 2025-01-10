@@ -1,0 +1,464 @@
+/* File: /styles.css */
+
+/* =========================================
+   General Styles
+   ========================================= */
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    width: 90%;           /* Responsive width */
+    max-width: 1400px;    /* Increased max-width for larger frame */
+    transition: max-width 0.3s ease; /* Smooth transition */
+}
+
+.container.test-mode {
+    max-width: 1600px;    /* Further increased max-width for expansive test mode */
+}
+
+/* =========================================
+   Selector Styles
+   ========================================= */
+.selector {
+    margin-bottom: 20px;
+}
+
+.selector label {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #333;
+}
+
+.selector select {
+    padding: 8px 12px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.selector button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.selector button:hover {
+    background-color: #0056b3;
+}
+
+/* =========================================
+   Mode Selection Styles
+   ========================================= */
+.mode-selection {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mode-button {
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.mode-button:hover {
+    background-color: #1e7e34;
+    transform: translateY(-2px);
+}
+
+.mode-button:active {
+    transform: translateY(0);
+}
+
+/* =========================================
+   Controls Styles
+   ========================================= */
+.controls {
+    margin-bottom: 20px; /* Space below controls */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: nowrap;
+}
+
+.controls button {
+    padding: 12px;
+    margin: 0;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2em;
+    flex: 0 0 auto;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.controls button:active {
+    transform: scale(1);
+}
+
+/* =========================================
+   Flashcard Styles (Learn Mode)
+   ========================================= */
+.flashcard-container {
+    perspective: 1000px;
+    position: relative;
+    transition: height 0.6s ease;
+    min-height: 200px;
+    max-width: 400px; /* Limit flashcard container width */
+    margin: 0 auto;    /* Center flashcard container */
+}
+
+.flashcard {
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.flashcard.flipped {
+    transform: rotateY(180deg);
+}
+
+/* Front and Back Faces */
+.flashcard .front, .flashcard .back {
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    white-space: pre-wrap;
+    font-family: Arial, sans-serif, 'Segoe UI Emoji', 'Apple Color Emoji';
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.flashcard .back {
+    transform: rotateY(180deg);
+}
+
+/* =========================================
+   Sliding Animations
+   ========================================= */
+@keyframes slideOutLeft {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(-100%); opacity: 0; }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideOutRight {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(100%); opacity: 0; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.slide-out-left {
+    animation: slideOutLeft 0.5s forwards;
+}
+
+.slide-in-right {
+    animation: slideInRight 0.5s forwards;
+}
+
+.slide-out-right {
+    animation: slideOutRight 0.5s forwards;
+}
+
+.slide-in-left {
+    animation: slideInLeft 0.5s forwards;
+}
+
+/* =========================================
+   Test Mode Styles
+   ========================================= */
+.test-container {
+    margin-top: 20px;
+    overflow: hidden; /* Prevent scrollbars on container */
+}
+
+.test-layout {
+    display: flex;
+    gap: 30px; /* Increased gap between columns */
+    padding: 30px; /* Increased padding */
+    box-sizing: border-box;
+    height: calc(100vh - 150px); /* Adjust height based on other elements */
+    overflow-y: auto; /* Allow vertical scrolling if necessary */
+    justify-content: center; /* Center the columns horizontally */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.test-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 2; /* Reduced flex ratio to allow front column to be narrower */
+    max-height: 100%; /* Ensure columns don't exceed container height */
+}
+
+.test-column.large {
+    flex: 3; /* Adjusted flex ratio for Answers */
+    /* Removed fixed widths to prevent overflow */
+    /* Adjusted height */
+    height: auto; /* Let height adapt based on content */
+}
+
+.test-column.large .test-card {
+    flex: 1; /* Allow cards to grow and shrink */
+    width: 100%; /* Make cards take full width of the column */
+    height: auto; /* Let height adapt based on content */
+    min-height: 170px; /* Minimum height to accommodate 7 lines */
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+/* Ensure that on smaller screens, adjustments are scaled appropriately */
+@media (max-width: 900px) {
+    .test-layout {
+        flex-direction: column;
+        padding: 20px; /* Reduced padding for smaller screens */
+        gap: 20px;      /* Reduced gap for smaller screens */
+    }
+
+    .test-column {
+        flex: 1.5; /* Further reduce flex ratio for front column */
+    }
+
+    .test-column.large {
+        flex: 2; /* Adjust flex ratio for back column */
+        width: 100%; /* Full width on smaller screens */
+        height: auto;
+    }
+
+    .test-column.large .test-card {
+        width: 100%; /* Reset to full width */
+        height: auto; /* Reset to auto height */
+        min-height: 0; /* Remove min-height on smaller screens */
+    }
+}
+
+/* Additional media query for very large screens (optional) */
+@media (min-width: 1600px) {
+    .test-layout {
+        padding: 40px; /* Further increased padding */
+        gap: 40px;     /* Further increased gap */
+    }
+
+    .test-column.large .test-card {
+        min-height: 200px; /* Increased min-height for larger screens */
+    }
+}
+
+/* =========================================
+   Test Card Styles
+   ========================================= */
+.test-column h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.test-column p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.test-card {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, border-color 0.3s;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 14px;
+    word-break: break-word;
+    white-space: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.test-card.selected {
+    border-color: #007BFF;
+    background-color: #e7f1ff;
+}
+
+.test-card.correct {
+    background-color: #28a745;
+    color: #fff;
+    cursor: default;
+    animation: fadeOut 0.5s forwards;
+}
+
+.test-card.incorrect {
+    background-color: #dc3545;
+    color: #fff;
+    animation: shake 0.5s;
+}
+
+.test-card.no-match {
+    background-color: #6c757d; /* Grey color for unmatched cards */
+    color: #fff;
+    cursor: not-allowed;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+/* =========================================
+   Responsive Design Adjustments
+   ========================================= */
+@media (max-height: 800px) {
+    .test-layout {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .test-column {
+        max-height: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .test-column h2 {
+        font-size: 1.2em;
+    }
+
+    .test-card {
+        font-size: 12px;
+        padding: 10px;
+        min-height: 50px;
+    }
+
+    .selector label, .selector select {
+        font-size: 1em;
+    }
+
+    .mode-button {
+        padding: 10px 18px;
+        font-size: 1em;
+    }
+
+    .controls button {
+        padding: 10px;
+        font-size: 1.1em;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .flashcard .front, .flashcard .back {
+        font-size: 12px;
+    }
+
+    .controls button {
+        padding: 8px;
+        font-size: 1em;
+        width: 40px;
+        height: 40px;
+    }
+
+    .test-card {
+        font-size: 10px;
+        padding: 8px;
+        min-height: 40px;
+    }
+
+    .reset-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
+
+/* =========================================
+   Reset Button Styles
+   ========================================= */
+.reset-button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background-color: #ffc107;
+    color: #212529;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.reset-button:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+}
+
+.reset-button:active {
+    transform: translateY(0);
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "question": "Die Haftpflicht",
+    "answer": "📌 Die gesetzliche Verpflichtung, für Schäden, die man einer anderen Person zufügt, aufzukommen. Dies umfasst in der Regel die Wiederherstellung des ursprünglichen Zustands oder eine Entschädigung.\n🔍 Die Haftung tritt ein, wenn jemand durch sein Handeln oder Unterlassen Schaden verursacht. Es geht dabei um die Wiederherstellung der Gerechtigkeit und den Ausgleich von Schäden.\n👉 Wenn ein Fenster beim Fussballspielen zerbricht, muss der Verursacher für den Schaden aufkommen."
+  },
+  {
+    "question": "Die Verschuldenshaftung",
+    "answer": "📌 Bedeutet, dass jemand für Schaden verantwortlich ist, den er durch sein rechtswidriges und schuldhaftes Verhalten verursacht hat.\n🔍 Es wird ein persönliches Verschulden wie Vorsatz oder Fahrlässigkeit vorausgesetzt. Die Haftung entsteht aus dem Grundsatz, dass jeder für die Folgen seines Handelns einstehen soll.\n👉 Verursacht jemand einen Autounfall durch überhöhte Geschwindigkeit, haftet er wegen Verschuldens."
+  },
+  {
+    "question": "Die Kausalhaftung",
+    "answer": "📌 Bedeutet, dass jemand für Schäden haftet, auch ohne direktes eigenes Verschulden, wenn er in einer Weise beteiligt ist, die gesetzlich als haftungsbegründend angesehen wird.\n🔍 Es geht nicht um die Schuldfrage, sondern um die Ursache. Wenn durch jemandes Handlung ein Schaden entsteht, kann er haftbar gemacht werden.\n👉 Ein Tierhalter haftet für Schäden, die sein Tier verursacht, auch wenn er selbst keine Schuld trägt."
+  },
+  {
+    "question": "Die Fahrlässigkeit",
+    "answer": "📌 Ist das Ausserachtlassen der gebotenen Sorgfalt. Sie liegt vor, wenn jemand die im Verkehr erforderliche Sorgfalt nicht beachtet und dadurch Schaden verursacht.\n🔍 Es gibt verschiedene Grade der Fahrlässigkeit, von leicht bis grob. Entscheidend ist, wie weit jemand von dem Verhalten abweicht, das von einer vernünftigen Person erwartet wird.\n👉 Jemand lässt seine Brille auf einem Stuhl liegen, und ein anderer setzt sich darauf. Der Eigentümer hat fahrlässig gehandelt."
+  },
+  {
+    "question": "Der Regress",
+    "answer": "📌 Bezeichnet die Rückforderung von bereits geleisteten Zahlungen, besonders im Kontext von Schadensersatzleistungen. Dies erfolgt oft zwischen Versicherungen oder von einem Schädiger zurück an den Geschädigten.\n🔍 Ziel ist die finanzielle Rückabwicklung ungerechtfertigter oder überhöhter Zahlungen. Es geht darum, die Lasten gerecht auf die Verantwortlichen zu verteilen.\n👉 Eine Versicherung zahlt Schadensersatz und nimmt dann Regress beim Verursacher, um das Geld zurückzuholen."
+  },
+  {
+    "question": "Das Bonus-/Malussystem",
+    "answer": "📌 Ist ein Prämienstufen-System in Versicherungsverträgen, das Verhalten belohnt oder bestraft. Eine geringe Schadensquote führt zu Boni, häufige Schäden zu höheren Beiträgen (Malus).\n🔍 Das System soll Anreize für risikoarmes Verhalten schaffen und die Prämien an die individuelle Schadenshistorie anpassen.\n👉 Ein Autofahrer ohne Unfälle über mehrere Jahre erhält durch das Bonus-/Malussystem niedrigere Versicherungsbeiträge."
+  },
+  {
+    "question": "Sozialversicherungen",
+    "answer": "📌 Sind gesetzliche Versicherungen, die die grundlegenden Lebensrisiken wie Alter, Invalidität, Krankheit, Arbeitslosigkeit und Unfall abdecken und die wirtschaftliche Sicherheit der Arbeitnehmenden und ihrer Angehörigen gewährleisten.\n🔍 Sie basieren auf dem Prinzip der Solidarität: Die Gemeinschaft trägt gemeinsam die Risiken des Einzelnen. Die Finanzierung erfolgt durch Beiträge der Versicherten und teilweise des Staates.\n👉 Wenn jemand arbeitslos wird, unterstützt die Arbeitslosenversicherung (ALV) ihn finanziell."
+  },
+  {
+    "question": "Das Dreisäulenprinzip",
+    "answer": "📌 Ist das Vorsorgesystem der Schweiz, bestehend aus der AHV/IV (1. Säule), der Pensionskasse (2. Säule) und der privaten Vorsorge (3. Säule). Es zielt darauf ab, im Alter, bei Invalidität oder Tod das Einkommen zu sichern.\n🔍 Jede Säule hat eine spezifische Funktion und zusammen bieten sie eine umfassende Deckung. Die 1. Säule sichert das Existenzminimum, die 2. Säule ermöglicht den gewohnten Lebensstandard und die 3. Säule dient der individuellen Zusatzvorsorge.\n👉 Ein Rentner in der Schweiz erhält eine AHV-Rente (1. Säule) und, wenn er berufstätig war, auch Leistungen aus der Pensionskasse (2. Säule)."
+  },
+  {
+    "question": "Das Umlageverfahren",
+    "answer": "📌 Ist eine Finanzierungsmethode von Sozialversicherungen, bei der die aktuellen Beiträge der Erwerbstätigen direkt zur Finanzierung der laufenden Leistungen an die Rentner verwendet werden.\n🔍 Es basiert auf dem Generationenvertrag, der besagt, dass die aktive Generation für die ältere Generation sorgt. Die Beiträge werden nicht angespart, sondern sofort wieder ausgegeben.\n👉 Die Beiträge eines Arbeitnehmers an die AHV finanzieren direkt die Renten der heutigen Rentner."
+  },
+  {
+    "question": "Das Kapitaldeckungsverfahren",
+    "answer": "📌 Ist eine Finanzierungsmethode von Sozialversicherungen, bei der Beiträge angespart und investiert werden, um später als Rente an die Versicherten ausgezahlt zu werden.\n🔍 Die Beiträge eines Individuums werden kapitalisiert, d.h. sie bilden ein individuelles Altersguthaben, das durch Zinsen wächst und im Rentenalter zur Verfügung steht.\n👉 In der Pensionskasse (2. Säule) wird für jeden Arbeitnehmenden ein individuelles Konto geführt, auf das die Beiträge eingezahlt werden."
+  },
+  {
+    "question": "Die AHV (Alters- und Hinterbliebenenversicherung)",
+    "answer": "📌 Ist die grundlegende staatliche Rentenversicherung in der Schweiz und bildet die erste Säule des Vorsorgesystems. Sie sichert das Existenzminimum im Alter sowie für H"
+  },
+  {
+    "question": "interbliebene.",
+    "answer": "🔍 Sie wird durch Beiträge der Erwerbstätigen und der Arbeitgeber finanziert und basiert auf dem Umlageverfahren. Alle Erwerbstätigen sind obligatorisch versichert.\n👉 Jeder Erwerbstätige in der Schweiz zahlt Beiträge an die AHV und erhält im Alter eine AHV-Rente."
+  },
+  {
+    "question": "Die IV (Invalidenversicherung)",
+    "answer": "📌 Ist Teil der ersten Säule und bietet Leistungen bei voller oder teilweiser Erwerbsunfähigkeit aufgrund von Krankheit oder Unfall.\n🔍 Sie soll die finanziellen Einbussen bei Invalidität mildern und die Integration in das Arbeitsleben fördern. Die Finanzierung erfolgt ähnlich wie bei der AHV.\n👉 Eine Person, die durch einen Unfall dauerhaft nicht mehr arbeiten kann, erhält Leistungen aus der IV."
+  },
+  {
+    "question": "Die EO (Erwerbsersatzordnung)",
+    "answer": "📌 Ist eine Versicherung, die den Erwerbsausfall bei Militär-, Zivildienst und Zivilschutz sowie bei Mutterschaft und Vaterschaft kompensiert.\n🔍 Sie soll sicherstellen, dass Personen in diesen Situationen nicht finanziell benachteiligt werden. Die Beiträge werden ähnlich wie bei der AHV erhoben.\n👉 Ein Soldat im Militärdienst erhält eine Entschädigung durch die EO, um seinen Einkommensausfall teilweise zu decken."
+  },
+  {
+    "question": "Die ALV (Arbeitslosenversicherung)",
+    "answer": "📌 Bietet finanzielle Unterstützung bei Arbeitslosigkeit sowie bei wetterbedingten Arbeitsausfällen, Kurzarbeit und bei Zahlungsunfähigkeit der Arbeitgebenden.\n🔍 Sie soll das Einkommen sichern und den Lebensunterhalt ermöglichen, während der Betroffene eine neue Stelle sucht. Sie wird durch Beiträge von Arbeitnehmenden und Arbeitgebern finanziert.\n👉 Ein arbeitsloser Mensch erhält Arbeitslosengeld, um seinen Lebensunterhalt zu finanzieren, während er nach einer neuen Stelle sucht."
+  },
+  {
+    "question": "Die Pensionskasse (BVG)",
+    "answer": "📌 Ist die berufliche Vorsorge und bildet die zweite Säule des schweizerischen Vorsorgesystems. Sie ergänzt die Leistungen der AHV/IV und sichert den gewohnten Lebensstandard im Alter.\n🔍 Jeder Arbeitnehmende ist pflichtversichert und zahlt zusammen mit dem Arbeitgeber Beiträge. Das Kapitaldeckungsverfahren wird angewendet.\n👉 Bei Pensionierung erhält man neben der AHV-Rente auch das angesparte Altersguthaben aus der Pensionskasse."
+  }
+]

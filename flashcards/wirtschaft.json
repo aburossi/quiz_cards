@@ -1,0 +1,54 @@
+[
+  {
+    "question": "Konjunktur",
+    "answer": "📌 Beschreibt die gesamtwirtschaftliche Lage in einer Volkswirtschaft und umfasst die Schwankungen der wirtschaftlichen Aktivität.\n🔍 Schwankungen beinhalten Aufschwung, Hochkonjunktur, Abschwung und Tiefstand. Die Konjunktur wird durch verschiedene Indikatoren wie das BIP gemessen.\n👉 Wenn viele Menschen Arbeit haben und viel konsumieren, befindet sich die Wirtschaft oft in einem Aufschwung."
+  },
+  {
+    "question": "Das Bruttoinlandprodukt (BIP)",
+    "answer": "📌 Ist der Wert aller Waren und Dienstleistungen, die innerhalb eines Jahres in einer Volkswirtschaft produziert werden.\n🔍 Es ist ein Mass für die wirtschaftliche Leistung eines Landes und wird zur Messung des Wirtschaftswachstums verwendet.\n👉 Ein steigendes BIP weist auf eine wachsende Wirtschaft hin, während ein fallendes BIP auf eine schrumpfende Wirtschaft hindeutet."
+  },
+  {
+    "question": "Der Konjunkturzyklus",
+    "answer": "📌 Beschreibt den zyklischen Wechsel von wirtschaftlichen Auf- und Abschwüngen in einer Volkswirtschaft.\n🔍 Der Zyklus umfasst vier Phasen: Aufschwung, Hochkonjunktur, Abschwung und Tiefstand.\n👉 In einem Aufschwung nehmen die Investitionen und das Verbrauchervertrauen zu, während in einem Abschwung das Gegenteil der Fall ist."
+  },
+  {
+    "question": "Der Landesindex der Konsumentenpreise (LIK)",
+    "answer": "📌 Ist ein Mass für die Veränderung der Preise eines Warenkorbs, der für die privaten Haushalte in der Schweiz repräsentativ ist.\n🔍 Er zeigt die Teuerung und wird zur Messung der Inflation oder Deflation verwendet.\n👉 Wenn der LIK steigt, bedeutet das, dass die Lebenshaltungskosten für die durchschnittlichen Haushalte zunehmen."
+  },
+  {
+    "question": "Die Inflation",
+    "answer": "📌 Bezeichnet die Erhöhung des Preisniveaus von Gütern und Dienstleistungen, was zu einer Minderung der Kaufkraft des Geldes führt.\n🔍 Inflation wird durch Faktoren wie erhöhte Produktionskosten oder erhöhte Nachfrage nach Produkten verursacht.\n👉 Wenn die Preise für alltägliche Waren wie Brot und Milch steigen, erleben die Bürger eine Inflation."
+  },
+  {
+    "question": "Die Deflation",
+    "answer": "📌 Bezeichnet einen anhaltenden Rückgang des Preisniveaus für Güter und Dienstleistungen.\n🔍 Sie tritt auf, wenn die Nachfrage nach Gütern und Dienstleistungen geringer ist als das Angebot.\n👉 Deflation kann dazu führen, dass Menschen ihre Käufe aufschieben, in der Erwartung, dass die Preise weiter fallen werden."
+  },
+  {
+    "question": "Die konjunkturpolitischen Massnahmen",
+    "answer": "📌 Sind Massnahmen der Wirtschaftspolitik, die darauf abzielen, die Konjunktur zu stabilisieren und Wirtschaftswachstum, Preisniveaustabilität sowie hohen Beschäftigungsstand zu fördern.\n🔍 Diese umfassen geldpolitische und fiskalpolitische Instrumente.\n👉 Eine Senkung der Zinssätze durch die Nationalbank kann als Massnahme betrachtet werden, um die Wirtschaft zu beleben."
+  },
+  {
+    "question": "Der Wohlstand",
+    "answer": "📌 Bezieht sich auf das materielle Wohlergehen einer Bevölkerung, gemessen an Gütern und Dienstleistungen, die zur Verfügung stehen.\n🔍 Es umfasst Aspekte wie Einkommen, Besitz und Zugang zu Gütern.\n👉 Ein Land mit hohem Pro-Kopf-Einkommen und einer guten Versorgung mit öffentlichen Gütern gilt als wohlhabend."
+  },
+  {
+    "question": "Die Wohlfahrt",
+    "answer": "📌 Bezieht sich auf das umfassende Wohlergehen der Menschen, einschliesslich materieller und immaterieller Aspekte wie Gesundheit, Bildung, Glück und Sicherheit.\n🔍 Sie geht über den materiellen Wohlstand hinaus und umfasst Lebensqualität und -zufriedenheit.\n👉 Eine umfassende Sozialversicherung und Zugang zu Gesundheitsversorgung sind Indikatoren für eine hohe Wohlfahrt."
+  },
+  {
+    "question": "Aufschwung",
+    "answer": "📌 Bezeichnet die Phase im Konjunkturzyklus, in der die wirtschaftliche Aktivität zunimmt, gekennzeichnet durch steigende Produktion, Einkommen und Beschäftigung.\n🔍 Während des Aufschwungs erhöhen sich Investitionen, Konsum und die Nachfrage nach Gütern und Dienstleistungen.\n👉 Wenn Unternehmen mehr investieren und mehr Arbeitsplätze schaffen, führt dies zu einer höheren Nachfrage und einem allgemeinen Gefühl der wirtschaftlichen Verbesserung."
+  },
+  {
+    "question": "Hochkonjunktur",
+    "answer": "📌 Ist die Phase im Konjunkturzyklus, in der die Wirtschaft auf ihrem Höhepunkt operiert, mit maximaler Produktion, hohen Beschäftigungsraten und starkem Verbrauchervertrauen.\n🔍 In der Hochkonjunktur sind Kapazitäten oft voll ausgelastet, und es kann zu Engpässen und Preissteigerungen kommen.\n👉 Wenn alle oder die meisten Menschen Arbeit haben und die Löhne steigen, fühlen sich die Menschen sicher, mehr zu kaufen, was die Wirtschaft weiter anheizt."
+  },
+  {
+    "question": "Abschwung",
+    "answer": "📌 Bezeichnet die Phase des Konjunkturzyklus nach der Hochkonjunktur, in der die wirtschaftliche Aktivität abnimmt, gekennzeichnet durch fallende Produktion, Einkommen und Beschäftigung.\n🔍 Im Abschwung nehmen Investitionen und Konsum ab, was zu einem Rückgang der Nachfrage nach Gütern und Dienstleistungen führt.\n👉 Unternehmen stellen weniger her und stellen weniger ein, was zu weniger Einkommen und geringerem Konsum führt, was die Wirtschaft weiter verlangsamt."
+  },
+  {
+    "question": "Rezession",
+    "answer": "📌 Ist eine Phase signifikanten, anhaltenden Rückgangs der wirtschaftlichen Aktivität, gekennzeichnet durch einen Rückgang des BIP in zwei aufeinanderfolgenden Quartalen.\n🔍 Eine Rezession geht oft mit Arbeitslosigkeit, reduzierten Investitionen und einem Mangel an Vertrauen in die Wirtschaft einher.\n👉 Wenn eine Rezession eintritt, können Menschen ihre Jobs verlieren oder befürchten, sie zu verlieren, was zu einer Reduzierung der Ausgaben und damit zu einer Verringerung der wirtschaftlichen Aktivität führt."
+  }
+]

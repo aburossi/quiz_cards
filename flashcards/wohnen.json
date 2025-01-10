@@ -1,0 +1,70 @@
+[
+  {
+    "question": "Mietvertrag",
+    "answer": "📌 Ein Vertrag zwischen Vermieterin und Mieter über die Bedingungen der Vermietung einer Sache.\n🔍 Legt die Rechte und Pflichten beider Parteien fest, inklusive Mietdauer, Mietzins und Kündigungsfristen.\n👉 Bei Einzug in eine neue Wohnung unterschreiben Mieter und Vermieter einen Mietvertrag, der alle Konditionen festlegt."
+  },
+  {
+    "question": "Antrittsprotokoll",
+    "answer": "📌 Ein Dokument, in welchem aufgeschrieben wird, was bei Einzug in ein Mietobjekt nicht in Ordnung ist.\n🔍 Dient der Dokumentation des Zustands der Wohnung, um spätere Missverständnisse zu vermeiden.\n👉 Beim Einzug dokumentieren Mieter und Vermieter gemeinsam im Antrittsprotokoll vorhandene Mängel."
+  },
+  {
+    "question": "Kaution",
+    "answer": "📌 Die Geldsumme, die man als Sicherheit beim Mieten einer Wohnung hinterlegen muss.\n🔍 Maximal drei Monatsmieten sind gesetzlich erlaubt, um potenzielle Schäden oder ausstehende Zahlungen zu decken.\n👉 Beim Mieten einer Wohnung zahlt der Mieter eine Kaution, die nach Vertragsende zurückgegeben wird, sofern keine Schäden vorhanden sind."
+  },
+  {
+    "question": "Mietzins",
+    "answer": "📌 Der monatlich zu bezahlende Geldbetrag für das Mietobjekt.\n🔍 Umfasst meistens nicht die Nebenkosten und variiert je nach Lage, Grösse und Zustand der Wohnung.\n👉 Jeden Monat überweist der Mieter den vereinbarten Mietzins an den Vermieter."
+  },
+  {
+    "question": "Nebenkosten",
+    "answer": "📌 Die Kosten für eine Wohnung, die zusätzlich zur Miete entstehen.\n🔍 Inkludieren Wasser, Heizung, Strom, Reinigungskosten, Instandhaltung, Schneeräumung.\n👉 Neben dem Mietzins zahlt der Mieter monatlich eine Pauschale für Nebenkosten, die jährlich abgerechnet wird."
+  },
+  {
+    "question": "Untermiete",
+    "answer": "📌 Das Mieten eines Zimmers oder einer Wohnung in einer von einem Hauptmieter bereits gemieteten Wohnung.\n🔍 Oft genutzt, um Kosten zu teilen oder Wohnraum temporär zu nutzen.\n👉 Ein Student vermietet ein Zimmer seiner gemieteten 3-Zimmer-Wohnung weiter, um Kosten zu sparen."
+  },
+  {
+    "question": "Kündigungsfrist",
+    "answer": "📌 Die Zeitspanne zwischen dem Empfang des Kündigungsschreibens und dem Vertragsende.\n🔍 Muss eingehalten werden und variiert je nach Vertrag und kantonalem Recht.\n👉 Der Mieter möchte ausziehen und muss gemäss Vertrag drei Monate im Voraus kündigen."
+  },
+  {
+    "question": "Kündigungstermin",
+    "answer": "📌 Das Datum, auf welches das Mietverhältnis endet.\n🔍 Wichtig für die Planung von Umzug und Übergabe der Wohnung.\n👉 Der Kündigungstermin ist der 31. März; bis dahin muss der Mieter ausgezogen sein."
+  },
+  {
+    "question": "Rückgabeprotokoll",
+    "answer": "📌 Ein Dokument, in welchem aufgeschrieben wird, was bei Auszug aus einem Mietobjekt nicht in Ordnung ist.\n🔍 Dient der fairen Rückgabe der Wohnung und der Klärung von Verantwortlichkeiten für Schäden.\n👉 Beim Auszug kontrollieren Mieter und Vermieter die Wohnung und halten im Rückgabeprotokoll den Zustand fest."
+  },
+  {
+    "question": "Kündigungsschutz",
+    "answer": "📌 Beinhaltet gesetzliche Regelungen, die die Kündigung eines Vertrages erschweren oder ausschliessen.\n🔍 Schützt Mieter vor willkürlicher oder ungerechtfertigter Kündigung.\n👉 Ein Vermieter muss triftige Gründe vorweisen, um einem Mieter kündigen zu können."
+  },
+  {
+    "question": "Missbräuchlicher Mietzins",
+    "answer": "📌 Bezeichnet einen Mietzins, der die maximal zulässige Nettorendite übersteigt.\n🔍 Ziel ist es, Wucher und ungerechtfertigt hohe Mieten zu verhindern.\n👉 Ein Mieter findet heraus, dass seine Miete deutlich über dem üblichen Mietzins liegt und klagt auf Reduktion."
+  },
+  {
+    "question": "Schlichtungsbehörde",
+    "answer": "📌 Sie ist für sämtliche Streitigkeiten aus Mietverhältnissen zuständig.\n🔍 Ein kostenloses Verfahren soll eine Einigung zwischen den Parteien herbeiführen.\n👉 Bei Streitigkeiten über die Mietkaution wenden sich Mieter und Vermieter an die Schlichtungsbehörde."
+  },
+  {
+    "question": "Referenzzinssatz",
+    "answer": "📌 Stützt sich auf den hypothekarischen Durchschnittszinssatz der Banken in der Schweiz.\n🔍 Wird zur Berechnung der angemessenen Höhe des Mietzinses verwendet.\n👉 Bei einem Sinken des Referenzzinssatzes kann der Mieter eine Senkung des Mietzinses beantragen."
+  },
+  {
+    "question": "Rechte des Mieters",
+    "answer": "📌 Umfassen Schutz vor missbräuchlichem Mietzins, Kündigungsschutz und das Recht auf eine bewohnbare Wohnung.\n🔍 Mieter dürfen unter bestimmten Bedingungen den Mietzins anfechten, Kündigungen widersprechen und notwendige Reparaturen verlangen.\n👉 Ein Mieter bemängelt erhebliche Mängel in der Wohnung und verlangt vom Vermieter die notwendige Instandsetzung."
+  },
+  {
+    "question": "Pflichten des Mieters",
+    "answer": "📌 Beinhalten die pünktliche Zahlung des Mietzinses, sorgsamer Umgang mit der Mietwohnung und die Einhaltung der Hausordnung.\n🔍 Mieter müssen den Mietzins fristgerecht zahlen, dürfen keine unerlaubten Umbauten vornehmen und müssen Lärmemissionen vermeiden.\n👉 Ein Mieter achtet darauf, seine monatliche Miete rechtzeitig zu überweisen und verursacht keinen übermässigen Lärm."
+  },
+  {
+    "question": "Rechte des Vermieters",
+    "answer": "📌 Beinhalten das Recht auf pünktliche Mietzinszahlung, das Recht auf Einhaltung der Hausordnung durch den Mieter und das Recht, die Wohnung bei Vertragsende zurückzuerhalten.\n🔍 Vermieter dürfen Mietzins anpassen, bei Vertragsverletzungen kündigen und die Wohnung nach Vertragsende in angemessenem Zustand zurückerhalten.\n👉 Ein Vermieter besteht auf der Einhaltung der Kündigungsfrist, nachdem der Mieter beschliesst, auszuziehen."
+  },
+  {
+    "question": "Pflichten des Vermieters",
+    "answer": "📌 Umfassen die Gewährleistung der Gebrauchstauglichkeit der Wohnung, die Durchführung notwendiger Reparaturen und die Einhaltung der Datenschutzbestimmungen.\n🔍 Vermieter müssen die Mietwohnung in einem bewohnbaren Zustand halten, Reparaturen zeitnah durchführen und Mieterdaten schützen.\n👉 Der Vermieter sorgt dafür, dass die Heizung funktioniert und reagiert prompt auf eine defekte Wasserleitung."
+  }
+]
