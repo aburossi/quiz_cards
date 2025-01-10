@@ -2,10 +2,9 @@
 
 import { fetchFlashcards, shuffle, getUrlParams, capitalizeFirstLetter } from './data.js';
 
-document.addEventListener('DOMContentLoaded', () => {
-    loadSubjectsAndPopulate('flashcards');
-    setupFlashcardEventListeners();
-});
+loadSubjectsAndPopulate('flashcards');
+setupFlashcardEventListeners();
+
 
 // === DOM Elements ===
 const subjectSelect = document.getElementById('subject');

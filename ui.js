@@ -2,10 +2,8 @@
 
 import { fetchSubjects, fetchFlashcards, shuffle, getUrlParams, capitalizeFirstLetter } from './data.js';
 
-document.addEventListener('DOMContentLoaded', () => {
-    initializeApp();
-    setupEventListeners();
-});
+initializeApp();
+setupEventListeners();
 
 // === DOM Elements ===
 const subjectSelect = document.getElementById('subject');
